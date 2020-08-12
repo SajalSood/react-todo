@@ -1,0 +1,136 @@
+.App {
+	text-align: center;
+} 
+
+.App-header {
+	background-color: #282c34;
+	display: grid;
+	grid-auto-flow: column;
+	align-items: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.theme {
+	text-align: left;
+	margin-left: 2rem;
+}
+
+.login, .message-area, .filters {
+    display: grid;
+    grid-auto-flow: column;
+	padding: 1em;
+	justify-content: center;
+}
+
+.logout {
+	text-align: right;
+	margin-right: 2rem;
+}
+
+.auth, .message, .user-info, .filter {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 1rem;
+}
+
+.todo, .todo-area{
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 1rem;
+}
+
+.item-group {
+    padding-left: 1em;
+	min-width: 10em;
+}
+
+.todo-group {
+	display: grid;
+	grid-auto-flow: row;
+}
+
+    .item-group-child {
+		display: grid;
+        padding: .75rem 1.25rem;
+        background-color: #fff;
+		border: 1px solid rgba(0,0,0,.125);
+		text-align: justify;
+	}
+	
+    .item-grid {
+        display: grid;
+        grid-auto-flow: column;
+		grid-column-gap: 1rem;
+		justify-content: center;
+    }
+
+.user-info > span:last-of-type {
+    text-align: right;
+}
+
+.user-message {
+	word-break: break-all;
+}
+
+.btn {
+	padding: 1em;
+	margin: 0.7em auto;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.form-control {
+	padding: 1em;
+	margin: 0.7em auto;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.form-select {
+	width: max-content;
+	color: #555;
+	background-color: #fff;
+}
+
+.btn-login, .btn-update {
+	background-color: #4CAF50;
+}
+
+.btn-logout, .btn-refresh, .btn-delete, .btn-not-done{
+	background-color: #a94442;
+}
+
+.btn-send, .btn-done {
+	background-color: lightblue;
+}
+
+.info-success {
+	color: #4CAF50;
+}
+
+.info-danger {
+	color: #a94442;
+}
+
+.light {
+	min-height: 500px;
+	background-color: lightgrey;
+	color: black;
+}
+
+.dark {
+	min-height: 500px;
+	background-color: #282c34;
+	color: white;
+}
+
+.colorful {
+	min-height: 500px;
+	background-color: #ffd699;
+	color: #663100;
+}
